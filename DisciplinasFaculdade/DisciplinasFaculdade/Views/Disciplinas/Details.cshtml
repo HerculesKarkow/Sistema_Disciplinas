@@ -1,0 +1,62 @@
+﻿@model DisciplinasFaculdade.Models.Disciplina
+
+@{
+    ViewBag.Title = "Detalhes da Disciplina";
+}
+
+<h3>Detalhes da Disciplina</h3>
+
+<div>
+    <h5 style="color:dodgerblue;">
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </h5>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt style="text-align:left">
+            @Html.DisplayNameFor(model => model.Curso.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Curso.Nome)
+        </dd>
+
+        <dt style="text-align:left">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt style="text-align:left">
+            @Html.DisplayNameFor(model => model.QtdAlunos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QtdAlunos)
+        </dd>
+
+        <dt style="text-align:left">
+            @Html.DisplayNameFor(model => model.Periodo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Periodo)
+        </dd>
+
+        <dt style="text-align:left">
+            @Html.DisplayNameFor(model => model.DiaDaSemana)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiaDaSemana)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-warning" }) |
+    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
+</p>

@@ -1,0 +1,60 @@
+﻿@model Curso_ASP_MVC_EF.Models.Sala
+
+@{
+    ViewBag.Title = "Deletar Sala";
+}
+
+<h3>Deletar Sala</h3>
+
+<h3>Tem certeza que deseja deletar esta sala?</h3>
+<div>
+    <h5 style="color:red;">
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </h5>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt style="text-align:left;">
+            @Html.DisplayNameFor(model => model.Predio.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Predio.Descricao)
+        </dd>
+
+        <dt style="text-align:left;">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt style="text-align:left;">
+            @Html.DisplayNameFor(model => model.QtdAlunos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QtdAlunos)
+        </dd>
+
+        <dt style="text-align:left;">
+            @Html.DisplayNameFor(model => model.QtdDisciplinas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QtdDisciplinas)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar" class="btn btn-danger" /> |
+            @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
+        </div>
+    }
+</div>

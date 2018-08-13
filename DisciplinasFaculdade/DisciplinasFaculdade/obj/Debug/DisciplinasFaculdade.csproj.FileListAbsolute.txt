@@ -1,0 +1,189 @@
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\ApplicationInsights.config
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\DisciplinasFaculdade.dll.config
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\DisciplinasFaculdade.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\DisciplinasFaculdade.pdb
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csc.exe
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csc.exe.config
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csc.rsp
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csi.exe
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csi.exe.config
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csi.rsp
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.AppContext.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Console.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.Compression.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.Pipes.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Claims.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.ValueTuple.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Xml.XPath.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\vbc.exe
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\vbc.exe.config
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\vbc.rsp
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\VBCSCompiler.exe
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Antlr3.Runtime.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.SqlServer.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.Web.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.ApplicationInsights.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Newtonsoft.Json.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Helpers.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Mvc.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Optimization.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Razor.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Deployment.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Razor.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\WebGrease.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Antlr3.Runtime.pdb
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.SqlServer.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.Web.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\Newtonsoft.Json.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Helpers.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Mvc.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Razor.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Deployment.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Razor.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Optimization.xml
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csproj.CoreCompileInputs.cache
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.dll
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.pdb
+C:\Users\heco_\Desktop\Faculdade\5 Semestre\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csprojResolveAssemblyReference.cache
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\ApplicationInsights.config
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\DisciplinasFaculdade.dll.config
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\DisciplinasFaculdade.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\DisciplinasFaculdade.pdb
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csc.exe
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csc.exe.config
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csc.rsp
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csi.exe
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csi.exe.config
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\csi.rsp
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.AppContext.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Console.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.Compression.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.IO.Pipes.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Claims.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.ValueTuple.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Xml.XPath.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\vbc.exe
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\vbc.exe.config
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\vbc.rsp
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\VBCSCompiler.exe
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Antlr3.Runtime.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.SqlServer.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.Web.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.ApplicationInsights.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Newtonsoft.Json.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Helpers.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Mvc.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Optimization.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Razor.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Deployment.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Razor.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\WebGrease.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Antlr3.Runtime.pdb
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.SqlServer.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.Web.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\Newtonsoft.Json.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Helpers.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Mvc.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Razor.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Deployment.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Razor.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Optimization.xml
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csprojAssemblyReference.cache
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csproj.CoreCompileInputs.cache
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csproj.CopyComplete
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.dll
+C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.pdb
