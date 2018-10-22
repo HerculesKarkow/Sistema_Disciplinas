@@ -1,4 +1,4 @@
-﻿@model DisciplinasFaculdade.Models.Sala
+﻿@model DisciplinasFaculdade.Models.Professor
 
 @{
     ViewBag.Title = "Details";
@@ -7,15 +7,15 @@
 <h2>Details</h2>
 
 <div>
-    <h4>Sala</h4>
+    <h4>Professor</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Predio.Descricao)
+            @Html.DisplayNameFor(model => model.Curso.Nome)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Predio.Descricao)
+            @Html.DisplayFor(model => model.Curso.Nome)
         </dd>
 
         <dt>
@@ -24,14 +24,6 @@
 
         <dd>
             @Html.DisplayFor(model => model.Nome)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.QtdLugares)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.QtdLugares)
         </dd>
 
     </dl>

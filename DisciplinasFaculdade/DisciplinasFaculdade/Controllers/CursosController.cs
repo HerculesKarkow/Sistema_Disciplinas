@@ -14,13 +14,13 @@ namespace DisciplinasFaculdade.Controllers
     {
         private DisciplinasContext db = new DisciplinasContext();
 
-        // GET: Cursoes
+        // GET: Cursos
         public ActionResult Index()
         {
             return View(db.Curso.ToList());
         }
 
-        // GET: Cursoes/Details/5
+        // GET: Cursos/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -35,13 +35,13 @@ namespace DisciplinasFaculdade.Controllers
             return View(curso);
         }
 
-        // GET: Cursoes/Create
+        // GET: Cursos/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Cursoes/Create
+        // POST: Cursos/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -58,7 +58,7 @@ namespace DisciplinasFaculdade.Controllers
             return View(curso);
         }
 
-        // GET: Cursoes/Edit/5
+        // GET: Cursos/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -73,7 +73,7 @@ namespace DisciplinasFaculdade.Controllers
             return View(curso);
         }
 
-        // POST: Cursoes/Edit/5
+        // POST: Cursos/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -89,7 +89,7 @@ namespace DisciplinasFaculdade.Controllers
             return View(curso);
         }
 
-        // GET: Cursoes/Delete/5
+        // GET: Cursos/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -104,7 +104,7 @@ namespace DisciplinasFaculdade.Controllers
             return View(curso);
         }
 
-        // POST: Cursoes/Delete/5
+        // POST: Cursos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

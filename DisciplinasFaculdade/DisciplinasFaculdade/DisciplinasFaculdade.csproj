@@ -146,24 +146,30 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CursoDisciplinasController.cs" />
     <Compile Include="Controllers\CursosController.cs" />
     <Compile Include="Controllers\DisciplinasController.cs" />
+    <Compile Include="Controllers\DisponibilidadeSalasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PrediosController.cs" />
+    <Compile Include="Controllers\ProfessorCursoesController.cs" />
+    <Compile Include="Controllers\ProfessoresController.cs" />
     <Compile Include="Controllers\SalasController.cs" />
-    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Curso.cs" />
+    <Compile Include="Models\CursoDisciplina.cs" />
     <Compile Include="Models\DiaDaSemana.cs" />
     <Compile Include="Models\Disciplina.cs" />
     <Compile Include="Models\DisciplinasContext.cs" />
-    <Compile Include="Models\Periodo.cs" />
+    <Compile Include="Models\DisponibilidadeSalas.cs" />
     <Compile Include="Models\Predio.cs" />
+    <Compile Include="Models\Professor.cs" />
+    <Compile Include="Models\ProfessorCurso.cs" />
     <Compile Include="Models\Sala.cs" />
-    <Compile Include="Models\TipoUsuario.cs" />
-    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\StatusSala.cs" />
+    <Compile Include="Models\Turno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -239,11 +245,6 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
-    <Content Include="Views\Usuarios\Create.cshtml" />
-    <Content Include="Views\Usuarios\Delete.cshtml" />
-    <Content Include="Views\Usuarios\Details.cshtml" />
-    <Content Include="Views\Usuarios\Edit.cshtml" />
-    <Content Include="Views\Usuarios\Index.cshtml" />
     <Content Include="Views\Predios\Create.cshtml" />
     <Content Include="Views\Predios\Delete.cshtml" />
     <Content Include="Views\Predios\Details.cshtml" />
@@ -259,6 +260,11 @@
     <Content Include="Views\Cursos\Details.cshtml" />
     <Content Include="Views\Cursos\Edit.cshtml" />
     <Content Include="Views\Cursos\Index.cshtml" />
+    <Content Include="Views\Professores\Create.cshtml" />
+    <Content Include="Views\Professores\Delete.cshtml" />
+    <Content Include="Views\Professores\Details.cshtml" />
+    <Content Include="Views\Professores\Edit.cshtml" />
+    <Content Include="Views\Professores\Index.cshtml" />
     <Content Include="Views\Disciplinas\Create.cshtml" />
     <Content Include="Views\Disciplinas\Delete.cshtml" />
     <Content Include="Views\Disciplinas\Details.cshtml" />
@@ -267,6 +273,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\CursoDisciplinas\" />
+    <Folder Include="Views\DisponibilidadeSalas\" />
+    <Folder Include="Views\ProfessorCursoes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

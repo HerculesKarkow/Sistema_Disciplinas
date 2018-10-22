@@ -5,9 +5,9 @@ using System.Web;
 
 namespace DisciplinasFaculdade.Models
 {
-    public enum Periodo
+    public enum StatusSala
     {
-        Parcial,
-        Integral
+        Disponivel,
+        Indisponivel
     }
 }

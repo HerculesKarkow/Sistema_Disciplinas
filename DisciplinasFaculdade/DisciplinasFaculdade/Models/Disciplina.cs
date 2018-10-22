@@ -12,22 +12,35 @@ namespace DisciplinasFaculdade.Models
     {
         public int Id { get; set; }
         [Required]
-        [ForeignKey("Curso")]
-        public int IdCurso{ get; set; }
-        [Required]
         [MaxLength(100)]
         [Display(Name = "Nome Disciplina")]
         public string Nome { get; set; }
         [Required]
+        [Display(Name = "Turno")]
+        public Turno Turno { get; set; }
+        [Required]
+        [Display(Name = "Semestre")]
+        public int Semestre { get; set; }   
+        [Required]
         [Display(Name = "Quantidade de alunos")]
         public int QtdAlunos { get; set; }
         [Required]
-        [Display(Name = "Período")]
-        public Periodo Periodo { get; set; }
-        [Required]
         [Display(Name = "Dia da semana")]
         public DiaDaSemana DiaDaSemana { get; set; }
+        [Required]
+        [ForeignKey("Sala")]
+        public int IdSala { get; set; }
+        [Required]
+        [ForeignKey("ProfessorCurso")]
+        public int IdProfessorCurso { get; set; }
+        [Display(Name = "Disciplina de 36 Horas")]
+        public bool DisciplinaParcial { get; set; }
+        [Display(Name = "Usar sala em período Integral?")]
+        public bool IndisponibilizarSala { get; set; }
 
+        public virtual ProfessorCurso ProfessorCurso { get; set; }
+        public virtual Sala Sala { get; set; }
         public virtual Curso Curso { get; set; }
+        
     }
 }
