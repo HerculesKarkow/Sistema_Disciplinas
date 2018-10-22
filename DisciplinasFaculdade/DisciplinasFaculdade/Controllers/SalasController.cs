@@ -6,7 +6,6 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using Curso_ASP_MVC_EF.Models;
 using DisciplinasFaculdade.Models;
 
 namespace DisciplinasFaculdade.Controllers
@@ -49,7 +48,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Nome,QtdAlunos,QtdDisciplinas,IdPredio")] Sala sala)
+        public ActionResult Create([Bind(Include = "Id,IdPredio,Nome,QtdLugares")] Sala sala)
         {
             if (ModelState.IsValid)
             {
@@ -83,7 +82,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Nome,QtdAlunos,QtdDisciplinas,IdPredio")] Sala sala)
+        public ActionResult Edit([Bind(Include = "Id,IdPredio,Nome,QtdLugares")] Sala sala)
         {
             if (ModelState.IsValid)
             {

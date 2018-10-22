@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -7,19 +8,18 @@ using System.Web;
 
 namespace DisciplinasFaculdade.Models
 {
-    [Table("Usuario")]
-    public class Usuario
+    [Table("Professor")]
+    public class Professor
     {
         public int Id { get; set; }
         [Required]
         [MaxLength(100)]
-        [Display(Name = "Nome Usuário")]
+        [Display(Name = "Nome Professor")]
         public string Nome { get; set; }
         [Required]
-        [MaxLength(100)]
-        [Display(Name = "E-mail")]
-        public string Email { get; set; }
-        [Required]
-        public TipoUsuario Tipo { get; set; }
+        [ForeignKey("Curso")]
+        public int Id_Curso { get; set; }
+
+        public virtual Curso Curso { get; set; }
     }
 }

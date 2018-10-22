@@ -1,13 +1,13 @@
-﻿@model IEnumerable<Curso_ASP_MVC_EF.Models.Sala>
+﻿@model IEnumerable<DisciplinasFaculdade.Models.Sala>
 
 @{
-    ViewBag.Title = "Salas";
+    ViewBag.Title = "Index";
 }
 
-<h2>Salas</h2>
+<h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Cadastrar Sala", "Create", null, new { @class = "btn btn-default" })
+    @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
@@ -18,10 +18,7 @@
             @Html.DisplayNameFor(model => model.Nome)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.QtdAlunos)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.QtdDisciplinas)
+            @Html.DisplayNameFor(model => model.QtdLugares)
         </th>
         <th></th>
     </tr>
@@ -35,15 +32,12 @@
             @Html.DisplayFor(modelItem => item.Nome)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.QtdAlunos)
+            @Html.DisplayFor(modelItem => item.QtdLugares)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.QtdDisciplinas)
-        </td>
-        <td style="text-align:right;">
-            @Html.ActionLink("Editar", "Edit", new { id=item.Id }, new { @class = "btn btn-warning" }) |
-            @Html.ActionLink("Detalhes", "Details", new { id=item.Id }, new { @class = "btn btn-info" }) |
-            @Html.ActionLink("Deletar", "Delete", new { id=item.Id }, new { @class = "btn btn-danger" })
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
         </td>
     </tr>
 }

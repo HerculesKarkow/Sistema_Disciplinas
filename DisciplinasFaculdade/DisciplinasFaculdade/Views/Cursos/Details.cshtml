@@ -1,20 +1,16 @@
 ﻿@model DisciplinasFaculdade.Models.Curso
 
 @{
-    ViewBag.Title = "Detalhes do Curso";
+    ViewBag.Title = "Details";
 }
 
-<h3>Detalhes do Curso</h3>
+<h2>Details</h2>
 
 <div>
-    <h5 style="color:dodgerblue;">
-        <dd>
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-    </h5>
+    <h4>Curso</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt style="text-align:left">
+        <dt>
             @Html.DisplayNameFor(model => model.Nome)
         </dt>
 
@@ -25,6 +21,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-warning" }) |
-    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
 </p>

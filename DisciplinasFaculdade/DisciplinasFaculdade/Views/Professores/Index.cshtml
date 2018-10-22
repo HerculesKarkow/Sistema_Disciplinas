@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DisciplinasFaculdade.Models.Curso>
+﻿@model IEnumerable<DisciplinasFaculdade.Models.Professor>
 
 @{
     ViewBag.Title = "Index";
@@ -12,6 +12,9 @@
 <table class="table">
     <tr>
         <th>
+            @Html.DisplayNameFor(model => model.Curso.Nome)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.Nome)
         </th>
         <th></th>
@@ -19,6 +22,9 @@
 
 @foreach (var item in Model) {
     <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Curso.Nome)
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.Nome)
         </td>

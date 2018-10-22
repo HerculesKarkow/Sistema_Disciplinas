@@ -1,28 +1,32 @@
 ﻿@model DisciplinasFaculdade.Models.Disciplina
 
 @{
-    ViewBag.Title = "Detalhes da Disciplina";
+    ViewBag.Title = "Details";
 }
 
-<h3>Detalhes da Disciplina</h3>
+<h2>Details</h2>
 
 <div>
-    <h5 style="color:dodgerblue;">
-        <dd>
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-    </h5>
+    <h4>Disciplina</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt style="text-align:left">
-            @Html.DisplayNameFor(model => model.Curso.Nome)
+        <dt>
+            @Html.DisplayNameFor(model => model.ProfessorCurso.Id)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Curso.Nome)
+            @Html.DisplayFor(model => model.ProfessorCurso.Id)
         </dd>
 
-        <dt style="text-align:left">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sala.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sala.Nome)
+        </dd>
+
+        <dt>
             @Html.DisplayNameFor(model => model.Nome)
         </dt>
 
@@ -30,7 +34,23 @@
             @Html.DisplayFor(model => model.Nome)
         </dd>
 
-        <dt style="text-align:left">
+        <dt>
+            @Html.DisplayNameFor(model => model.Turno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Turno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Semestre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Semestre)
+        </dd>
+
+        <dt>
             @Html.DisplayNameFor(model => model.QtdAlunos)
         </dt>
 
@@ -38,15 +58,7 @@
             @Html.DisplayFor(model => model.QtdAlunos)
         </dd>
 
-        <dt style="text-align:left">
-            @Html.DisplayNameFor(model => model.Periodo)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Periodo)
-        </dd>
-
-        <dt style="text-align:left">
+        <dt>
             @Html.DisplayNameFor(model => model.DiaDaSemana)
         </dt>
 
@@ -54,9 +66,25 @@
             @Html.DisplayFor(model => model.DiaDaSemana)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.DisciplinaParcial)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DisciplinaParcial)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IndisponibilizarSala)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IndisponibilizarSala)
+        </dd>
+
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-warning" }) |
-    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
 </p>

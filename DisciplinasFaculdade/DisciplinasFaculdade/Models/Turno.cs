@@ -5,9 +5,10 @@ using System.Web;
 
 namespace DisciplinasFaculdade.Models
 {
-    public enum TipoUsuario
+    public enum Turno
     {
-        Professor,
-        Administrador
+        Matutino,   // Turno da Manhã
+        Verpertino, // Turno da Tarde
+        Noturno     // Turno da Noite
     }
 }

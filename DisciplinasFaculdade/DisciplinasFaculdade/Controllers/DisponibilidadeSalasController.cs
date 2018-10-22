@@ -10,107 +10,112 @@ using DisciplinasFaculdade.Models;
 
 namespace DisciplinasFaculdade.Controllers
 {
-    public class UsuariosController : Controller
+    public class DisponibilidadeSalasController : Controller
     {
         private DisciplinasContext db = new DisciplinasContext();
 
-        // GET: Usuarios
+        // GET: DisponibilidadeSalas
         public ActionResult Index()
         {
-            return View(db.Usuario.ToList());
+            var disponibilidadeSalas = db.DisponibilidadeSalas.Include(d => d.Sala);
+            return View(disponibilidadeSalas.ToList());
         }
 
-        // GET: Usuarios/Details/5
+        // GET: DisponibilidadeSalas/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Usuario usuario = db.Usuario.Find(id);
-            if (usuario == null)
+            DisponibilidadeSalas disponibilidadeSalas = db.DisponibilidadeSalas.Find(id);
+            if (disponibilidadeSalas == null)
             {
                 return HttpNotFound();
             }
-            return View(usuario);
+            return View(disponibilidadeSalas);
         }
 
-        // GET: Usuarios/Create
+        // GET: DisponibilidadeSalas/Create
         public ActionResult Create()
         {
+            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome");
             return View();
         }
 
-        // POST: Usuarios/Create
+        // POST: DisponibilidadeSalas/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Nome,Email,Tipo")] Usuario usuario)
+        public ActionResult Create([Bind(Include = "Id,IdSala,diaDaSemana,turno,statusSala")] DisponibilidadeSalas disponibilidadeSalas)
         {
             if (ModelState.IsValid)
             {
-                db.Usuario.Add(usuario);
+                db.DisponibilidadeSalas.Add(disponibilidadeSalas);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(usuario);
+            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome", disponibilidadeSalas.IdSala);
+            return View(disponibilidadeSalas);
         }
 
-        // GET: Usuarios/Edit/5
+        // GET: DisponibilidadeSalas/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Usuario usuario = db.Usuario.Find(id);
-            if (usuario == null)
+            DisponibilidadeSalas disponibilidadeSalas = db.DisponibilidadeSalas.Find(id);
+            if (disponibilidadeSalas == null)
             {
                 return HttpNotFound();
             }
-            return View(usuario);
+            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome", disponibilidadeSalas.IdSala);
+            return View(disponibilidadeSalas);
         }
 
-        // POST: Usuarios/Edit/5
+        // POST: DisponibilidadeSalas/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Nome,Email,Tipo")] Usuario usuario)
+        public ActionResult Edit([Bind(Include = "Id,IdSala,diaDaSemana,turno,statusSala")] DisponibilidadeSalas disponibilidadeSalas)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(usuario).State = EntityState.Modified;
+                db.Entry(disponibilidadeSalas).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(usuario);
+            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome", disponibilidadeSalas.IdSala);
+            return View(disponibilidadeSalas);
         }
 
-        // GET: Usuarios/Delete/5
+        // GET: DisponibilidadeSalas/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Usuario usuario = db.Usuario.Find(id);
-            if (usuario == null)
+            DisponibilidadeSalas disponibilidadeSalas = db.DisponibilidadeSalas.Find(id);
+            if (disponibilidadeSalas == null)
             {
                 return HttpNotFound();
             }
-            return View(usuario);
+            return View(disponibilidadeSalas);
         }
 
-        // POST: Usuarios/Delete/5
+        // POST: DisponibilidadeSalas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Usuario usuario = db.Usuario.Find(id);
-            db.Usuario.Remove(usuario);
+            DisponibilidadeSalas disponibilidadeSalas = db.DisponibilidadeSalas.Find(id);
+            db.DisponibilidadeSalas.Remove(disponibilidadeSalas);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

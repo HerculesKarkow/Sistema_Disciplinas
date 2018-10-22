@@ -6,25 +6,22 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace Curso_ASP_MVC_EF.Models
+namespace DisciplinasFaculdade.Models
 {
     [Table("Sala")]
     public class Sala
     {
         public int Id { get; set; }
         [Required]
+        [ForeignKey("Predio")]
+        public int IdPredio { get; set; }
+        [Required]
         [MaxLength(30)]
         [Display(Name = "Nome Sala")]
         public string Nome { get; set; }
         [Required]
-        [Display(Name = "Quantidade de alunos")]
-        public int QtdAlunos { get; set; }
-        [Required]
-        [Display(Name = "Quantidade de disciplinas")]
-        public int QtdDisciplinas { get; set; }
-        [Required]
-        [ForeignKey("Predio")]
-        public int IdPredio { get; set; }
+        [Display(Name = "Quantidade de Lugares")]
+        public int QtdLugares { get; set; }
 
         public virtual Predio Predio { get; set; }
     }
