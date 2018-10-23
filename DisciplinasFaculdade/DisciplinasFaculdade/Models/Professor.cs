@@ -11,15 +11,12 @@ namespace DisciplinasFaculdade.Models
     [Table("Professor")]
     public class Professor
     {
-        public int Id { get; set; }
+        [Key]
+        [Column(Order = 0)]
+        public int IdProfessor { get; set; }
         [Required]
         [MaxLength(100)]
         [Display(Name = "Nome Professor")]
         public string Nome { get; set; }
-        [Required]
-        [ForeignKey("Curso")]
-        public int Id_Curso { get; set; }
-
-        public virtual Curso Curso { get; set; }
     }
 }

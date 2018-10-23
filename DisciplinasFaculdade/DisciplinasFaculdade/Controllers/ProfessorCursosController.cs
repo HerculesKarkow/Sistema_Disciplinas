@@ -10,18 +10,18 @@ using DisciplinasFaculdade.Models;
 
 namespace DisciplinasFaculdade.Controllers
 {
-    public class ProfessorCursoesController : Controller
+    public class ProfessorCursosController : Controller
     {
         private DisciplinasContext db = new DisciplinasContext();
 
-        // GET: ProfessorCursoes
+        // GET: ProfessorCursos
         public ActionResult Index()
         {
             var professorCurso = db.ProfessorCurso.Include(p => p.Curso).Include(p => p.Professor);
             return View(professorCurso.ToList());
         }
 
-        // GET: ProfessorCursoes/Details/5
+        // GET: ProfessorCursos/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -36,20 +36,20 @@ namespace DisciplinasFaculdade.Controllers
             return View(professorCurso);
         }
 
-        // GET: ProfessorCursoes/Create
+        // GET: ProfessorCursos/Create
         public ActionResult Create()
         {
             ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome");
-            ViewBag.IdProfessor = new SelectList(db.Professor, "Id", "Nome");
+            ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome");
             return View();
         }
 
-        // POST: ProfessorCursoes/Create
+        // POST: ProfessorCursos/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,IdProfessor,IdCurso")] ProfessorCurso professorCurso)
+        public ActionResult Create([Bind(Include = "IdProfessorCurso,IdProfessor,IdCurso")] ProfessorCurso professorCurso)
         {
             if (ModelState.IsValid)
             {
@@ -59,11 +59,11 @@ namespace DisciplinasFaculdade.Controllers
             }
 
             ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome", professorCurso.IdCurso);
-            ViewBag.IdProfessor = new SelectList(db.Professor, "Id", "Nome", professorCurso.IdProfessor);
+            ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome", professorCurso.IdProfessor);
             return View(professorCurso);
         }
 
-        // GET: ProfessorCursoes/Edit/5
+        // GET: ProfessorCursos/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -76,16 +76,16 @@ namespace DisciplinasFaculdade.Controllers
                 return HttpNotFound();
             }
             ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome", professorCurso.IdCurso);
-            ViewBag.IdProfessor = new SelectList(db.Professor, "Id", "Nome", professorCurso.IdProfessor);
+            ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome", professorCurso.IdProfessor);
             return View(professorCurso);
         }
 
-        // POST: ProfessorCursoes/Edit/5
+        // POST: ProfessorCursos/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,IdProfessor,IdCurso")] ProfessorCurso professorCurso)
+        public ActionResult Edit([Bind(Include = "IdProfessorCurso,IdProfessor,IdCurso")] ProfessorCurso professorCurso)
         {
             if (ModelState.IsValid)
             {
@@ -94,11 +94,11 @@ namespace DisciplinasFaculdade.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome", professorCurso.IdCurso);
-            ViewBag.IdProfessor = new SelectList(db.Professor, "Id", "Nome", professorCurso.IdProfessor);
+            ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome", professorCurso.IdProfessor);
             return View(professorCurso);
         }
 
-        // GET: ProfessorCursoes/Delete/5
+        // GET: ProfessorCursos/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -113,7 +113,7 @@ namespace DisciplinasFaculdade.Controllers
             return View(professorCurso);
         }
 
-        // POST: ProfessorCursoes/Delete/5
+        // POST: ProfessorCursos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
