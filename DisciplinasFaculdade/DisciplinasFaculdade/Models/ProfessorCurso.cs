@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
@@ -9,7 +10,9 @@ namespace DisciplinasFaculdade.Models
     [Table("ProfessorCurso")]
     public class ProfessorCurso
     {
-        public int Id { get; set; }
+        [Key]
+        [Column(Order = 0)]
+        public int IdProfessorCurso { get; set; }
 
         [ForeignKey("Professor")]
         public int IdProfessor { get; set; }

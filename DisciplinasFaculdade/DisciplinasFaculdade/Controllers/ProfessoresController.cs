@@ -17,8 +17,7 @@ namespace DisciplinasFaculdade.Controllers
         // GET: Professores
         public ActionResult Index()
         {
-            var professor = db.Professor.Include(p => p.Curso);
-            return View(professor.ToList());
+            return View(db.Professor.ToList());
         }
 
         // GET: Professores/Details/5
@@ -39,7 +38,6 @@ namespace DisciplinasFaculdade.Controllers
         // GET: Professores/Create
         public ActionResult Create()
         {
-            ViewBag.Id_Curso = new SelectList(db.Curso, "Id", "Nome");
             return View();
         }
 
@@ -48,7 +46,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Nome,Id_Curso")] Professor professor)
+        public ActionResult Create([Bind(Include = "IdProfessor,Nome")] Professor professor)
         {
             if (ModelState.IsValid)
             {
@@ -57,7 +55,6 @@ namespace DisciplinasFaculdade.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.Id_Curso = new SelectList(db.Curso, "Id", "Nome", professor.Id_Curso);
             return View(professor);
         }
 
@@ -73,7 +70,6 @@ namespace DisciplinasFaculdade.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.Id_Curso = new SelectList(db.Curso, "Id", "Nome", professor.Id_Curso);
             return View(professor);
         }
 
@@ -82,7 +78,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Nome,Id_Curso")] Professor professor)
+        public ActionResult Edit([Bind(Include = "IdProfessor,Nome")] Professor professor)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +86,6 @@ namespace DisciplinasFaculdade.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.Id_Curso = new SelectList(db.Curso, "Id", "Nome", professor.Id_Curso);
             return View(professor);
         }
 

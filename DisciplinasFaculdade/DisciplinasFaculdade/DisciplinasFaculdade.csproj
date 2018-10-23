@@ -152,7 +152,7 @@
     <Compile Include="Controllers\DisponibilidadeSalasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PrediosController.cs" />
-    <Compile Include="Controllers\ProfessorCursoesController.cs" />
+    <Compile Include="Controllers\ProfessorCursosController.cs" />
     <Compile Include="Controllers\ProfessoresController.cs" />
     <Compile Include="Controllers\SalasController.cs" />
     <Compile Include="Global.asax.cs">
@@ -270,12 +270,16 @@
     <Content Include="Views\Disciplinas\Details.cshtml" />
     <Content Include="Views\Disciplinas\Edit.cshtml" />
     <Content Include="Views\Disciplinas\Index.cshtml" />
+    <Content Include="Views\ProfessorCursos\Create.cshtml" />
+    <Content Include="Views\ProfessorCursos\Delete.cshtml" />
+    <Content Include="Views\ProfessorCursos\Details.cshtml" />
+    <Content Include="Views\ProfessorCursos\Edit.cshtml" />
+    <Content Include="Views\ProfessorCursos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\CursoDisciplinas\" />
     <Folder Include="Views\DisponibilidadeSalas\" />
-    <Folder Include="Views\ProfessorCursoes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

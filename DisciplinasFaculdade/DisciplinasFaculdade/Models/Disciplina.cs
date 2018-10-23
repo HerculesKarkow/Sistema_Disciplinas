@@ -31,14 +31,14 @@ namespace DisciplinasFaculdade.Models
         [ForeignKey("Sala")]
         public int IdSala { get; set; }
         [Required]
-        [ForeignKey("ProfessorCurso")]
-        public int IdProfessorCurso { get; set; }
+        [ForeignKey("Professor")]
+        public int IdProfessor { get; set; }
         [Display(Name = "Disciplina de 36 Horas")]
         public bool DisciplinaParcial { get; set; }
         [Display(Name = "Usar sala em período Integral?")]
         public bool IndisponibilizarSala { get; set; }
 
-        public virtual ProfessorCurso ProfessorCurso { get; set; }
+        public virtual Professor Professor { get; set; }
         public virtual Sala Sala { get; set; }
         public virtual Curso Curso { get; set; }
         
