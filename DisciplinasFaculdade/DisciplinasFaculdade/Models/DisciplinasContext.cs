@@ -20,5 +20,7 @@ namespace DisciplinasFaculdade.Models
         public DbSet<DisponibilidadeSalas> DisponibilidadeSalas { get; set; }
         public DbSet<CursoDisciplina> CursoDisciplina { get; set; }
         public DbSet<ProfessorCurso> ProfessorCurso { get; set; }
+
+        public System.Data.Entity.DbSet<DisciplinasFaculdade.ViewModels.DisciplinaViewModel> DisciplinaViewModels { get; set; }
     }
 }

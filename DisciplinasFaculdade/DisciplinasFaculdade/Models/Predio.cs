@@ -10,7 +10,9 @@ namespace DisciplinasFaculdade.Models
     [Table("Predio")]
     public class Predio
     {
-        public int Id { get; set; }
+        [Key]
+        [Column(Order = 0)]
+        public int IdPredio { get; set; }
         [Required]
         [MaxLength(30)]
         [Display(Name = "Nome Prédio")]

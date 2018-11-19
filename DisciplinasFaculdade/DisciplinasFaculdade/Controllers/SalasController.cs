@@ -39,7 +39,7 @@ namespace DisciplinasFaculdade.Controllers
         // GET: Salas/Create
         public ActionResult Create()
         {
-            ViewBag.IdPredio = new SelectList(db.Predio, "Id", "Descricao");
+            ViewBag.IdPredio = new SelectList(db.Predio, "IdPredio", "Descricao");
             return View();
         }
 
@@ -48,7 +48,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,IdPredio,Nome,QtdLugares")] Sala sala)
+        public ActionResult Create([Bind(Include = "IdSala,IdPredio,Nome,QtdLugares")] Sala sala)
         {
             if (ModelState.IsValid)
             {
@@ -57,7 +57,7 @@ namespace DisciplinasFaculdade.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.IdPredio = new SelectList(db.Predio, "Id", "Descricao", sala.IdPredio);
+            ViewBag.IdPredio = new SelectList(db.Predio, "IdPredio", "Descricao", sala.IdPredio);
             return View(sala);
         }
 
@@ -73,7 +73,7 @@ namespace DisciplinasFaculdade.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IdPredio = new SelectList(db.Predio, "Id", "Descricao", sala.IdPredio);
+            ViewBag.IdPredio = new SelectList(db.Predio, "IdPredio", "Descricao", sala.IdPredio);
             return View(sala);
         }
 
@@ -82,7 +82,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,IdPredio,Nome,QtdLugares")] Sala sala)
+        public ActionResult Edit([Bind(Include = "IdSala,IdPredio,Nome,QtdLugares")] Sala sala)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +90,7 @@ namespace DisciplinasFaculdade.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.IdPredio = new SelectList(db.Predio, "Id", "Descricao", sala.IdPredio);
+            ViewBag.IdPredio = new SelectList(db.Predio, "IdPredio", "Descricao", sala.IdPredio);
             return View(sala);
         }
 

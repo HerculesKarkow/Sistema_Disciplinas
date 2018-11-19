@@ -39,7 +39,7 @@ namespace DisciplinasFaculdade.Controllers
         // GET: ProfessorCursos/Create
         public ActionResult Create()
         {
-            ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome");
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Nome");
             ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome");
             return View();
         }
@@ -58,7 +58,7 @@ namespace DisciplinasFaculdade.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome", professorCurso.IdCurso);
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Nome", professorCurso.IdCurso);
             ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome", professorCurso.IdProfessor);
             return View(professorCurso);
         }
@@ -75,7 +75,7 @@ namespace DisciplinasFaculdade.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome", professorCurso.IdCurso);
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Nome", professorCurso.IdCurso);
             ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome", professorCurso.IdProfessor);
             return View(professorCurso);
         }
@@ -93,7 +93,7 @@ namespace DisciplinasFaculdade.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome", professorCurso.IdCurso);
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Nome", professorCurso.IdCurso);
             ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome", professorCurso.IdProfessor);
             return View(professorCurso);
         }

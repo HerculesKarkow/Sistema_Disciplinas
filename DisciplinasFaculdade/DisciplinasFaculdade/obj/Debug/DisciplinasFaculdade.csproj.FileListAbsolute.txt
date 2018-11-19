@@ -187,8 +187,6 @@ C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\obj\
 C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csproj.CopyComplete
 C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.dll
 C:\Users\heco_\Documents\Projetos\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.pdb
-C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.xml
-C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csproj.CoreCompileInputs.cache
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\ApplicationInsights.config
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\DisciplinasFaculdade.dll.config
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\DisciplinasFaculdade.dll
@@ -253,6 +251,8 @@ C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\Discipl
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\Newtonsoft.Json.dll
+C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\PagedList.dll
+C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\PagedList.Mvc.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Diagnostics.DiagnosticSource.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Helpers.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Mvc.dll
@@ -263,6 +263,7 @@ C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\Discipl
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Razor.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\WebGrease.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\Antlr3.Runtime.pdb
+C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\EntityFramework.SqlServer.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AI.Web.xml
@@ -270,6 +271,8 @@ C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\Discipl
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\Newtonsoft.Json.xml
+C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\PagedList.xml
+C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\PagedList.Mvc.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Helpers.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Mvc.xml
@@ -278,6 +281,9 @@ C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\Discipl
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Deployment.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.WebPages.Razor.xml
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\System.Web.Optimization.xml
+C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csproj.CoreCompileInputs.cache
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csproj.CopyComplete
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.pdb
+C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\ExcelLibrary.dll
+C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csprojAssemblyReference.cache
