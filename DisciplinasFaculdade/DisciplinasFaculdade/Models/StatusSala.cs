@@ -7,7 +7,7 @@ namespace DisciplinasFaculdade.Models
 {
     public enum StatusSala
     {
-        Disponivel,
-        Indisponivel
+        Indisponivel,
+        Disponivel
     }
 }

@@ -10,7 +10,9 @@ namespace DisciplinasFaculdade.Models
     [Table("Curso")]
     public class Curso
     {
-        public int Id { get; set; }
+        [Key]
+        [Column(Order = 0)]
+        public int IdCurso { get; set; }
         [Required]
         [MaxLength(50)]
         [Display(Name = "Nome Curso")]

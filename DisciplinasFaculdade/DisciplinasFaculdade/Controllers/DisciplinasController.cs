@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using DisciplinasFaculdade.Models;
+using DisciplinasFaculdade.ViewModels;
 
 namespace DisciplinasFaculdade.Controllers
 {
@@ -39,8 +40,11 @@ namespace DisciplinasFaculdade.Controllers
         // GET: Disciplinas/Create
         public ActionResult Create()
         {
+            var predio = new SelectList(db.Predio, "IdPredio", "Nome");
+
             ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome");
-            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome");
+            ViewBag.IdSala = new SelectList(db.Sala, "IdSala", "Nome");
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Nome");
             return View();
         }
 
@@ -49,17 +53,20 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Nome,Turno,Semestre,QtdAlunos,DiaDaSemana,IdSala,IdProfessor,DisciplinaParcial,IndisponibilizarSala")] Disciplina disciplina)
+        public ActionResult Create([Bind(Include = "Id,Nome,Turno,Semestre,QtdAlunos,DiaDaSemana,IdSala,IdProfessor,DisciplinaParcial")] Disciplina disciplina, DisciplinaViewModel DisciplinaVM, CursoDisciplina CD, DisponibilidadeSalas DS)
         {
             if (ModelState.IsValid)
             {
                 db.Disciplinas.Add(disciplina);
+                db.CursoDisciplina.Add(CD);
+                db.DisponibilidadeSalas.Add(DS);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
             ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome", disciplina.IdProfessor);
-            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome", disciplina.IdSala);
+            ViewBag.IdSala = new SelectList(db.Sala, "IdSala", "Nome", disciplina.IdSala);
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Curso");
             return View(disciplina);
         }
 
@@ -76,7 +83,8 @@ namespace DisciplinasFaculdade.Controllers
                 return HttpNotFound();
             }
             ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome", disciplina.IdProfessor);
-            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome", disciplina.IdSala);
+            ViewBag.IdSala = new SelectList(db.Sala, "IdSala", "Nome", disciplina.IdSala);
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Curso");
             return View(disciplina);
         }
 
@@ -85,7 +93,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Nome,Turno,Semestre,QtdAlunos,DiaDaSemana,IdSala,IdProfessor,DisciplinaParcial,IndisponibilizarSala")] Disciplina disciplina)
+        public ActionResult Edit([Bind(Include = "Id,Nome,Turno,Semestre,QtdAlunos,DiaDaSemana,IdSala,IdProfessor,DisciplinaParcial")] Disciplina disciplina)
         {
             if (ModelState.IsValid)
             {
@@ -94,7 +102,8 @@ namespace DisciplinasFaculdade.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.IdProfessor = new SelectList(db.Professor, "IdProfessor", "Nome", disciplina.IdProfessor);
-            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome", disciplina.IdSala);
+            ViewBag.IdSala = new SelectList(db.Sala, "IdSala", "Nome", disciplina.IdSala);
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Curso");
             return View(disciplina);
         }
 
@@ -123,6 +132,49 @@ namespace DisciplinasFaculdade.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        #region Métodos Auxiliares
+
+        public JsonResult GetProfessoresList (int? IdCurso)
+        {
+            if (IdCurso != null)
+            {
+                List<ProfessorCurso> ProfessorCursoList = db.ProfessorCurso.Where(x => x.IdCurso == IdCurso).ToList();
+                List<Professor> ProfessorList = new List<Professor>();
+                for (int i = 0; i < ProfessorCursoList.Count; i++)
+                {
+
+                    ProfessorList.Add(ProfessorCursoList[i].Professor);
+                }
+                return Json(ProfessorList, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                return Json(null, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+        //public JsonResult GetSalasQuantidade(int? QuantidadeAlunos, int? turno, int? diaSemana)
+        //{
+        //    if (QuantidadeAlunos != null)
+        //    {
+        //        List<DisponibilidadeSalas> DisponibilidadeSalaList = new List<DisponibilidadeSalas>();
+        //        List<Sala> SalaQuantidadeList = db.Sala.Where(x => x.QtdLugares >= QuantidadeAlunos).ToList();
+                
+        //        for (int i = 0; i < SalaQuantidadeList.Count; i++)
+        //        {
+        //            DisponibilidadeSalaList[i] = SalaQuantidadeList[i].);
+        //        }
+
+        //        return Json(SalaQuantidadeList, JsonRequestBehavior.AllowGet);
+        //    }
+        //    else
+        //    {
+        //        return Json(null, JsonRequestBehavior.AllowGet);
+        //    }
+        //}
+
+        #endregion Métods Auxiliares
 
         protected override void Dispose(bool disposing)
         {

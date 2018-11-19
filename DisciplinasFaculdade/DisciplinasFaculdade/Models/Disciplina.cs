@@ -10,6 +10,8 @@ namespace DisciplinasFaculdade.Models
     [Table("Disciplina")]
     public class Disciplina
     {
+        [Key]
+        [Column(Order = 0)]
         public int Id { get; set; }
         [Required]
         [MaxLength(100)]
@@ -35,12 +37,9 @@ namespace DisciplinasFaculdade.Models
         public int IdProfessor { get; set; }
         [Display(Name = "Disciplina de 36 Horas")]
         public bool DisciplinaParcial { get; set; }
-        [Display(Name = "Usar sala em período Integral?")]
-        public bool IndisponibilizarSala { get; set; }
 
         public virtual Professor Professor { get; set; }
         public virtual Sala Sala { get; set; }
-        public virtual Curso Curso { get; set; }
         
     }
 }

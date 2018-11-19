@@ -39,8 +39,8 @@ namespace DisciplinasFaculdade.Controllers
         // GET: CursoDisciplinas/Create
         public ActionResult Create()
         {
-            ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome");
-            ViewBag.IdDiscipplina = new SelectList(db.Disciplinas, "Id", "Nome");
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Nome");
+            ViewBag.IdDisciplina = new SelectList(db.Disciplinas, "Id", "Nome");
             return View();
         }
 
@@ -49,7 +49,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,IdDiscipplina,IdCurso")] CursoDisciplina cursoDisciplina)
+        public ActionResult Create([Bind(Include = "IdCursoDisciplina,IdDisciplina,IdCurso")] CursoDisciplina cursoDisciplina)
         {
             if (ModelState.IsValid)
             {
@@ -58,8 +58,8 @@ namespace DisciplinasFaculdade.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome", cursoDisciplina.IdCurso);
-            ViewBag.IdDiscipplina = new SelectList(db.Disciplinas, "Id", "Nome", cursoDisciplina.IdDiscipplina);
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Nome", cursoDisciplina.IdCurso);
+            ViewBag.IdDisciplina = new SelectList(db.Disciplinas, "Id", "Nome", cursoDisciplina.IdDisciplina);
             return View(cursoDisciplina);
         }
 
@@ -75,8 +75,8 @@ namespace DisciplinasFaculdade.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome", cursoDisciplina.IdCurso);
-            ViewBag.IdDiscipplina = new SelectList(db.Disciplinas, "Id", "Nome", cursoDisciplina.IdDiscipplina);
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Nome", cursoDisciplina.IdCurso);
+            ViewBag.IdDisciplina = new SelectList(db.Disciplinas, "Id", "Nome", cursoDisciplina.IdDisciplina);
             return View(cursoDisciplina);
         }
 
@@ -85,7 +85,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,IdDiscipplina,IdCurso")] CursoDisciplina cursoDisciplina)
+        public ActionResult Edit([Bind(Include = "IdCursoDisciplina,IdDisciplina,IdCurso")] CursoDisciplina cursoDisciplina)
         {
             if (ModelState.IsValid)
             {
@@ -93,8 +93,8 @@ namespace DisciplinasFaculdade.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.IdCurso = new SelectList(db.Curso, "Id", "Nome", cursoDisciplina.IdCurso);
-            ViewBag.IdDiscipplina = new SelectList(db.Disciplinas, "Id", "Nome", cursoDisciplina.IdDiscipplina);
+            ViewBag.IdCurso = new SelectList(db.Curso, "IdCurso", "Nome", cursoDisciplina.IdCurso);
+            ViewBag.IdDisciplina = new SelectList(db.Disciplinas, "Id", "Nome", cursoDisciplina.IdDisciplina);
             return View(cursoDisciplina);
         }
 

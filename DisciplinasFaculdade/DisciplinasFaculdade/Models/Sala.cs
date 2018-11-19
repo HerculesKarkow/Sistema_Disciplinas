@@ -11,7 +11,9 @@ namespace DisciplinasFaculdade.Models
     [Table("Sala")]
     public class Sala
     {
-        public int Id { get; set; }
+        [Key]
+        [Column(Order = 0)]
+        public int IdSala { get; set; }
         [Required]
         [ForeignKey("Predio")]
         public int IdPredio { get; set; }

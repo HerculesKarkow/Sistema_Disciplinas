@@ -39,7 +39,7 @@ namespace DisciplinasFaculdade.Controllers
         // GET: DisponibilidadeSalas/Create
         public ActionResult Create()
         {
-            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome");
+            ViewBag.IdSala = new SelectList(db.Sala, "IdSala", "Nome");
             return View();
         }
 
@@ -48,7 +48,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,IdSala,diaDaSemana,turno,statusSala")] DisponibilidadeSalas disponibilidadeSalas)
+        public ActionResult Create([Bind(Include = "IdDisponibilidade,IdSala,diaDaSemana,turno,statusSala")] DisponibilidadeSalas disponibilidadeSalas)
         {
             if (ModelState.IsValid)
             {
@@ -57,7 +57,7 @@ namespace DisciplinasFaculdade.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome", disponibilidadeSalas.IdSala);
+            ViewBag.IdSala = new SelectList(db.Sala, "IdSala", "Nome", disponibilidadeSalas.IdSala);
             return View(disponibilidadeSalas);
         }
 
@@ -73,7 +73,7 @@ namespace DisciplinasFaculdade.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome", disponibilidadeSalas.IdSala);
+            ViewBag.IdSala = new SelectList(db.Sala, "IdSala", "Nome", disponibilidadeSalas.IdSala);
             return View(disponibilidadeSalas);
         }
 
@@ -82,7 +82,7 @@ namespace DisciplinasFaculdade.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,IdSala,diaDaSemana,turno,statusSala")] DisponibilidadeSalas disponibilidadeSalas)
+        public ActionResult Edit([Bind(Include = "IdDisponibilidade,IdSala,diaDaSemana,turno,statusSala")] DisponibilidadeSalas disponibilidadeSalas)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +90,7 @@ namespace DisciplinasFaculdade.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.IdSala = new SelectList(db.Sala, "Id", "Nome", disponibilidadeSalas.IdSala);
+            ViewBag.IdSala = new SelectList(db.Sala, "IdSala", "Nome", disponibilidadeSalas.IdSala);
             return View(disponibilidadeSalas);
         }
 
