@@ -285,4 +285,5 @@ C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\Discipl
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csproj.CopyComplete
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.pdb
+C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\bin\ExcelLibrary.dll
 C:\Users\heco_\Documents\GitHub\Sistema_Disciplinas\DisciplinasFaculdade\DisciplinasFaculdade\obj\Debug\DisciplinasFaculdade.csprojAssemblyReference.cache
