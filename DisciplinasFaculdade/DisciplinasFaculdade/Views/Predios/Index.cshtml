@@ -4,30 +4,41 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Descricao)
-        </th>
-        <th></th>
-    </tr>
+<div class="container">
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Descricao)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+    <div class="jumbotron">
 
-</table>
+        <h2>Prédios</h2>
+
+        <p>
+            @Html.ActionLink("Adicionar novo", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    Prédio
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descricao)
+                    </td>
+                    <td align="right">
+                        <i class="glyphicon glyphicon-pencil" ></i>
+                        @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                        <i class="glyphicon glyphicon-search"></i>
+                        @Html.ActionLink("Detalhes", "Details", new { id = item.Id }) |
+                        <i class="glyphicon glyphicon-remove"></i>
+                        @Html.ActionLink("Deletar", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

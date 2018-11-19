@@ -3,24 +3,27 @@
 @{
     ViewBag.Title = "Details";
 }
+<div class="container">
 
-<h2>Details</h2>
+    <div class="jumbotron">
+        <h2>Details</h2>
 
-<div>
-    <h4>Predio</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
+        <div>
+            <h4>Predio</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Descricao)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Descricao)
+                </dd>
 
-    </dl>
+            </dl>
+            @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
